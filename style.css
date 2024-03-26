@@ -38,7 +38,7 @@ p {
 /* starts here */
 
 body {
-    background-color: palegoldenrod;
+    background-color: rgb(203, 74, 74);
     height: 100vh;
     & main {
         height: 100%;
@@ -56,13 +56,13 @@ body {
             font-weight: 600;
             & button {
                 padding: .5rem 1.5rem;
-                border: 2px solid rgba(0, 0, 0, .9);
+                border: 2px solid rgba(255, 255, 255, 0.9);
                 border-radius: 5px;
                 cursor: pointer;
-                box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+                box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
             }
             & button:hover {
-                box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+                box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.4);
             }
             & button#yes {
                 background-color: #97cfaa;
@@ -81,7 +81,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(178, 12, 12);
+    background-color: rgb(202, 31, 31);
     /* display: flex; */
     display: none;
     justify-content: center;
